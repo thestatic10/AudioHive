@@ -16,8 +16,8 @@ import java.util.concurrent.TimeUnit
 class SpotifyService(private val context: Context) {
     
     companion object {
-        private const val CLIENT_ID = "1454f53a7e7d45ec84b60995a30f1873" // Your real Spotify Client ID
-        private const val CLIENT_SECRET = "6b318321b4874f98a76d6c7c09287dd0" // Your real Spotify Client Secret
+        private const val CLIENT_ID = "" // Your real Spotify Client ID
+        private const val CLIENT_SECRET = "" // Your real Spotify Client Secret
         private const val REDIRECT_URI = "com.groupmusicplayer://callback"
         private const val BASE_URL = "https://api.spotify.com/v1/"
         private const val AUTH_URL = "https://accounts.spotify.com/api/"
