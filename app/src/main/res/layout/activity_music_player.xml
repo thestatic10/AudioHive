@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".activities.MusicPlayerActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface_color"
+        app:elevation="4dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Session Name"
+            app:titleTextColor="@color/primary_text"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:navigationIconTint="@color/primary_text" />
+
+        <!-- Session Info Bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:background="@color/primary_color">
+
+            <TextView
+                android:id="@+id/tv_room_code"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Room: ABC123"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/ic_room"
+                android:drawablePadding="8dp"
+                android:drawableTint="@android:color/white" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_host"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOST"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:chipBackgroundColor="@color/accent_color"
+                app:chipStrokeWidth="0dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/tv_users_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 connected"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:drawableStart="@drawable/ic_people"
+                android:drawablePadding="4dp"
+                android:drawableTint="@android:color/white" />
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Connected Users -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_users"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                tools:listitem="@layout/item_user" />
+
+            <!-- Current Track Section -->
+            <LinearLayout
+                android:id="@+id/layout_current_track"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="20dp"
+                android:layout_marginBottom="16dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/now_playing"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_color"
+                    android:layout_marginBottom="12dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_album_art"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/surface_color"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_music_note"
+                        app:cornerRadius="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_current_track"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Track Title"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/primary_text"
+                            android:maxLines="1"
+                            android:ellipsize="end" />
+
+                        <TextView
+                            android:id="@+id/tv_current_artist"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Artist Name"
+                            android:textSize="14sp"
+                            android:textColor="@color/secondary_text"
+                            android:maxLines="1"
+                            android:ellipsize="end" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- No Track Playing -->
+            <LinearLayout
+                android:id="@+id/layout_no_track"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="20dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_music_note"
+                    android:tint="@color/secondary_text"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_track_playing"
+                    android:textSize="16sp"
+                    android:textColor="@color/secondary_text"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add songs to get started"
+                    android:textSize="12sp"
+                    android:textColor="@color/secondary_text" />
+
+            </LinearLayout>
+
+            <!-- Playback Controls -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/card_background"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/btn_skip_previous"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_skip_previous"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/btn_skip_previous" />
+
+                <ImageButton
+                    android:id="@+id/btn_play_pause"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_play"
+                    android:background="@drawable/play_button_background"
+                    android:layout_marginHorizontal="16dp"
+                    android:contentDescription="@string/btn_play" />
+
+                <ImageButton
+                    android:id="@+id/btn_skip_next"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_skip_next"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/btn_skip_next" />
+
+            </LinearLayout>
+
+            <!-- Queue Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/queue_title"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/primary_text" />
+
+                    <TextView
+                        android:id="@+id/tv_queue_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0 songs"
+                        android:textSize="12sp"
+                        android:textColor="@color/secondary_text"
+                        android:background="@drawable/count_badge_bg"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="4dp" />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_queue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    tools:listitem="@layout/item_track_queue"
+                    tools:itemCount="3" />
+
+                <TextView
+                    android:id="@+id/tv_queue_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/no_tracks_in_queue"
+                    android:textSize="14sp"
+                    android:textColor="@color/secondary_text"
+                    android:gravity="center"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Search FAB -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_search"
+        app:layout_anchor="@id/bottom_sheet"
+        app:layout_anchorGravity="top|end"
+        app:backgroundTint="@color/accent_color"
+        app:tint="@android:color/white"
+        android:contentDescription="Search songs" />
+
+    <!-- Search Bottom Sheet -->
+    <LinearLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bottom_sheet_background"
+        android:padding="16dp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <!-- Handle Bar -->
+        <View
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/secondary_text"
+            android:layout_marginBottom="16dp"
+            android:alpha="0.5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Music"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Search Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                app:boxStrokeColor="@color/accent_color"
+                app:hintTextColor="@color/accent_color"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/search_songs"
+                    android:inputType="text"
+                    android:imeOptions="actionSearch"
+                    android:textColor="@color/primary_text"
+                    android:textColorHint="@color/secondary_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_search_action"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:text="Search"
+                android:backgroundTint="@color/accent_color"
+                android:textColor="@android:color/white"
+                app:cornerRadius="8dp" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"
+            android:indeterminateTint="@color/accent_color" />
+
+        <!-- Search Results -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_search_results"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            tools:listitem="@layout/item_track_search"
+            tools:itemCount="5" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout> 

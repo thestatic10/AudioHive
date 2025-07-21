@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- Position Number -->
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:text="1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/secondary_text"
+        android:gravity="center"
+        android:background="@drawable/position_number_bg"
+        android:layout_marginEnd="12dp" />
+
+    <!-- Album Art -->
+    <ImageView
+        android:id="@+id/iv_album_art"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/surface_color"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_music_note"
+        android:contentDescription="Album Art"
+        app:cornerRadius="6dp" />
+
+    <!-- Track Info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/tv_track_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Track Title"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tv_track_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artist Name"
+            android:textSize="14sp"
+            android:textColor="@color/secondary_text"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/tv_added_by"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Added by User"
+                android:textSize="12sp"
+                android:textColor="@color/accent_color"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/tv_track_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3:45"
+                android:textSize="12sp"
+                android:textColor="@color/secondary_text"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Drag Handle -->
+    <ImageView
+        android:id="@+id/iv_drag_handle"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_drag_handle"
+        android:contentDescription="Drag to reorder"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.6" />
+
+    <!-- Remove Button -->
+    <ImageButton
+        android:id="@+id/btn_remove"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_remove"
+        android:background="@drawable/remove_button_bg"
+        android:contentDescription="Remove from queue"
+        android:scaleType="center" />
+
+</LinearLayout> 

@@ -1,0 +1,385 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.groupmusicplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:7:5-68
+13-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:8:5-74
+14-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:8:22-71
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:10:5-68
+16-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:10:22-65
+17
+18    <permission
+18-->[androidx.core:core:1.12.0] C:\gradle\caches\8.14.2\transforms\1d43fc666374717b5943e7a814d4a6c7\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.groupmusicplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.12.0] C:\gradle\caches\8.14.2\transforms\1d43fc666374717b5943e7a814d4a6c7\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.12.0] C:\gradle\caches\8.14.2\transforms\1d43fc666374717b5943e7a814d4a6c7\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.groupmusicplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.12.0] C:\gradle\caches\8.14.2\transforms\1d43fc666374717b5943e7a814d4a6c7\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.12.0] C:\gradle\caches\8.14.2\transforms\1d43fc666374717b5943e7a814d4a6c7\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+23    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+23-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\gradle\caches\8.14.2\transforms\f1cf8c1bead966890befbf6c0ac932e2\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+23-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\gradle\caches\8.14.2\transforms\f1cf8c1bead966890befbf6c0ac932e2\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+24
+25    <application
+25-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:12:5-72:19
+26        android:allowBackup="true"
+26-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.12.0] C:\gradle\caches\8.14.2\transforms\1d43fc666374717b5943e7a814d4a6c7\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:14:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:15:9-54
+32        android:icon="@drawable/ic_launcher"
+32-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:16:9-45
+33        android:label="@string/app_name"
+33-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:17:9-41
+34        android:roundIcon="@drawable/ic_launcher_round"
+34-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:18:9-56
+35        android:supportsRtl="true"
+35-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:19:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.GroupMusicPlayer" >
+37-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:20:9-54
+38        <activity
+38-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:23:9-40:20
+39            android:name="com.groupmusicplayer.MainActivity"
+39-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:24:13-41
+40            android:exported="true"
+40-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:25:13-36
+41            android:launchMode="singleTop"
+41-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:26:13-43
+42            android:theme="@style/Theme.GroupMusicPlayer" >
+42-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:27:13-58
+43            <intent-filter>
+43-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:28:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:29:17-69
+44-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:29:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:30:17-77
+46-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48
+49            <!-- Spotify callback intent filter for main activity -->
+50            <intent-filter>
+50-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:34:13-39:29
+51                <action android:name="android.intent.action.VIEW" />
+51-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:35:17-69
+51-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:35:25-66
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:36:17-76
+53-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:36:27-73
+54                <category android:name="android.intent.category.BROWSABLE" />
+54-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:37:17-78
+54-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:37:27-75
+55
+56                <data android:scheme="com.groupmusicplayer" />
+56-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:38:17-63
+56-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:38:23-60
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:42:9-45:58
+60            android:name="com.groupmusicplayer.activities.CreateSessionActivity"
+60-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:43:13-61
+61            android:exported="false"
+61-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:44:13-37
+62            android:parentActivityName="com.groupmusicplayer.MainActivity" />
+62-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:45:13-55
+63        <activity
+63-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:47:9-50:58
+64            android:name="com.groupmusicplayer.activities.JoinSessionActivity"
+64-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:48:13-59
+65            android:exported="false"
+65-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:49:13-37
+66            android:parentActivityName="com.groupmusicplayer.MainActivity" />
+66-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:50:13-55
+67        <activity
+67-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:52:9-65:20
+68            android:name="com.groupmusicplayer.activities.MusicPlayerActivity"
+68-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:53:13-59
+69            android:exported="true"
+69-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:54:13-36
+70            android:launchMode="singleTop"
+70-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:55:13-43
+71            android:parentActivityName="com.groupmusicplayer.MainActivity" >
+71-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:56:13-55
+72
+73            <!-- Spotify callback intent filter -->
+74            <intent-filter>
+74-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:34:13-39:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:35:17-69
+75-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:35:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:36:17-76
+77-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:36:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:37:17-78
+78-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:37:27-75
+79
+80                <data android:scheme="com.groupmusicplayer" />
+80-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:38:17-63
+80-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:38:23-60
+81            </intent-filter>
+82        </activity>
+83        <activity
+83-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:67:9-70:76
+84            android:name="com.groupmusicplayer.activities.PlaylistImportActivity"
+84-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:68:13-62
+85            android:exported="false"
+85-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:69:13-37
+86            android:parentActivityName="com.groupmusicplayer.activities.MusicPlayerActivity" />
+86-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:70:13-73
+87
+88        <service
+88-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\gradle\caches\8.14.2\transforms\5aeaa11b4864e118ee5cc49a130ada19\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:8:9-14:19
+89            android:name="com.google.firebase.components.ComponentDiscoveryService"
+89-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\gradle\caches\8.14.2\transforms\5aeaa11b4864e118ee5cc49a130ada19\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:9:13-84
+90            android:directBootAware="true"
+90-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\gradle\caches\8.14.2\transforms\5aeaa11b4864e118ee5cc49a130ada19\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:10:13-37
+92            <meta-data
+92-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\gradle\caches\8.14.2\transforms\5aeaa11b4864e118ee5cc49a130ada19\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:11:13-13:85
+93                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+93-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\gradle\caches\8.14.2\transforms\5aeaa11b4864e118ee5cc49a130ada19\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:12:17-119
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\gradle\caches\8.14.2\transforms\5aeaa11b4864e118ee5cc49a130ada19\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:13:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+96                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+96-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\gradle\caches\8.14.2\transforms\15813dcac9bb3aba5e8edfc5e41cfd34\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+99                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar"
+99-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\gradle\caches\8.14.2\transforms\15813dcac9bb3aba5e8edfc5e41cfd34\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:13:17-127
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\gradle\caches\8.14.2\transforms\15813dcac9bb3aba5e8edfc5e41cfd34\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:14:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-database:20.3.0] C:\gradle\caches\8.14.2\transforms\3f4b3b5d110a789b0866c33819ab4ab6\transformed\firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+102                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+102-->[com.google.firebase:firebase-database:20.3.0] C:\gradle\caches\8.14.2\transforms\3f4b3b5d110a789b0866c33819ab4ab6\transformed\firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-database:20.3.0] C:\gradle\caches\8.14.2\transforms\3f4b3b5d110a789b0866c33819ab4ab6\transformed\firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-database:20.3.0] C:\gradle\caches\8.14.2\transforms\3f4b3b5d110a789b0866c33819ab4ab6\transformed\firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+105                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+105-->[com.google.firebase:firebase-database:20.3.0] C:\gradle\caches\8.14.2\transforms\3f4b3b5d110a789b0866c33819ab4ab6\transformed\firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-database:20.3.0] C:\gradle\caches\8.14.2\transforms\3f4b3b5d110a789b0866c33819ab4ab6\transformed\firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\gradle\caches\8.14.2\transforms\f2b4bc77a24bb6f6ce4a4925af6dc208\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+108                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+108-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\gradle\caches\8.14.2\transforms\f2b4bc77a24bb6f6ce4a4925af6dc208\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\gradle\caches\8.14.2\transforms\f2b4bc77a24bb6f6ce4a4925af6dc208\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+111                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+111-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+113        </service>
+114
+115        <activity
+115-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+116            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+116-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+117            android:excludeFromRecents="true"
+117-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+118            android:exported="true"
+118-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+119            android:launchMode="singleTask"
+119-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+120-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+121            <intent-filter>
+121-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+122                <action android:name="android.intent.action.VIEW" />
+122-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:35:17-69
+122-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:35:25-66
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:36:17-76
+124-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:36:27-73
+125                <category android:name="android.intent.category.BROWSABLE" />
+125-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:37:17-78
+125-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:37:27-75
+126
+127                <data
+127-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:38:17-63
+128                    android:host="firebase.auth"
+129                    android:path="/"
+130                    android:scheme="genericidp" />
+130-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:38:23-60
+131            </intent-filter>
+132        </activity>
+133        <activity
+133-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+134            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+134-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+135            android:excludeFromRecents="true"
+135-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+136            android:exported="true"
+136-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+137            android:launchMode="singleTask"
+137-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+138-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+139            <intent-filter>
+139-->[com.google.firebase:firebase-auth:22.3.1] C:\gradle\caches\8.14.2\transforms\954047705a910cc7db33589829a5268c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+140                <action android:name="android.intent.action.VIEW" />
+140-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:35:17-69
+140-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:35:25-66
+141
+142                <category android:name="android.intent.category.DEFAULT" />
+142-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:36:17-76
+142-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:36:27-73
+143                <category android:name="android.intent.category.BROWSABLE" />
+143-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:37:17-78
+143-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:37:27-75
+144
+145                <data
+145-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:38:17-63
+146                    android:host="firebase.auth"
+147                    android:path="/"
+148                    android:scheme="recaptcha" />
+148-->C:\GroupMusicPlayer\app\src\main\AndroidManifest.xml:38:23-60
+149            </intent-filter>
+150        </activity>
+151
+152        <provider
+152-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+153            android:name="com.google.firebase.provider.FirebaseInitProvider"
+153-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+154            android:authorities="com.groupmusicplayer.firebaseinitprovider"
+154-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+155            android:directBootAware="true"
+155-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+156            android:exported="false"
+156-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+157            android:initOrder="100" />
+157-->[com.google.firebase:firebase-common:20.4.2] C:\gradle\caches\8.14.2\transforms\fd56ccf40619c75baaf87dbad3ac67ed\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+158        <provider
+158-->[androidx.emoji2:emoji2:1.2.0] C:\gradle\caches\8.14.2\transforms\54a2f8fbc42363d625c4f73738190061\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+159            android:name="androidx.startup.InitializationProvider"
+159-->[androidx.emoji2:emoji2:1.2.0] C:\gradle\caches\8.14.2\transforms\54a2f8fbc42363d625c4f73738190061\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+160            android:authorities="com.groupmusicplayer.androidx-startup"
+160-->[androidx.emoji2:emoji2:1.2.0] C:\gradle\caches\8.14.2\transforms\54a2f8fbc42363d625c4f73738190061\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+161            android:exported="false" >
+161-->[androidx.emoji2:emoji2:1.2.0] C:\gradle\caches\8.14.2\transforms\54a2f8fbc42363d625c4f73738190061\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+162            <meta-data
+162-->[androidx.emoji2:emoji2:1.2.0] C:\gradle\caches\8.14.2\transforms\54a2f8fbc42363d625c4f73738190061\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+163                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+163-->[androidx.emoji2:emoji2:1.2.0] C:\gradle\caches\8.14.2\transforms\54a2f8fbc42363d625c4f73738190061\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+164                android:value="androidx.startup" />
+164-->[androidx.emoji2:emoji2:1.2.0] C:\gradle\caches\8.14.2\transforms\54a2f8fbc42363d625c4f73738190061\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+165            <meta-data
+165-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\gradle\caches\8.14.2\transforms\a42319f4245e8b9d03ebc5f4e3bbd67a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+166                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+166-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\gradle\caches\8.14.2\transforms\a42319f4245e8b9d03ebc5f4e3bbd67a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+167                android:value="androidx.startup" />
+167-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\gradle\caches\8.14.2\transforms\a42319f4245e8b9d03ebc5f4e3bbd67a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+168            <meta-data
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+169                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+170                android:value="androidx.startup" />
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+171        </provider>
+172
+173        <activity
+173-->[com.google.android.gms:play-services-base:18.1.0] C:\gradle\caches\8.14.2\transforms\c618b1e7729d951a551118df9c85290c\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+174            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+174-->[com.google.android.gms:play-services-base:18.1.0] C:\gradle\caches\8.14.2\transforms\c618b1e7729d951a551118df9c85290c\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+175            android:exported="false"
+175-->[com.google.android.gms:play-services-base:18.1.0] C:\gradle\caches\8.14.2\transforms\c618b1e7729d951a551118df9c85290c\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+176            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+176-->[com.google.android.gms:play-services-base:18.1.0] C:\gradle\caches\8.14.2\transforms\c618b1e7729d951a551118df9c85290c\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+177
+178        <meta-data
+178-->[com.google.android.gms:play-services-basement:18.1.0] C:\gradle\caches\8.14.2\transforms\8a5b6829d5c0133a964b6d72ae2ebad4\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+179            android:name="com.google.android.gms.version"
+179-->[com.google.android.gms:play-services-basement:18.1.0] C:\gradle\caches\8.14.2\transforms\8a5b6829d5c0133a964b6d72ae2ebad4\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+180            android:value="@integer/google_play_services_version" />
+180-->[com.google.android.gms:play-services-basement:18.1.0] C:\gradle\caches\8.14.2\transforms\8a5b6829d5c0133a964b6d72ae2ebad4\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+181
+182        <service
+182-->[androidx.room:room-runtime:2.6.1] C:\gradle\caches\8.14.2\transforms\b20df790172d3ca734fc21a79721db4c\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+183            android:name="androidx.room.MultiInstanceInvalidationService"
+183-->[androidx.room:room-runtime:2.6.1] C:\gradle\caches\8.14.2\transforms\b20df790172d3ca734fc21a79721db4c\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+184            android:directBootAware="true"
+184-->[androidx.room:room-runtime:2.6.1] C:\gradle\caches\8.14.2\transforms\b20df790172d3ca734fc21a79721db4c\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+185            android:exported="false" />
+185-->[androidx.room:room-runtime:2.6.1] C:\gradle\caches\8.14.2\transforms\b20df790172d3ca734fc21a79721db4c\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+186
+187        <receiver
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+188            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+189            android:directBootAware="false"
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+190            android:enabled="true"
+190-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+191            android:exported="true"
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+192            android:permission="android.permission.DUMP" >
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+193            <intent-filter>
+193-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+194                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+194-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+194-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+195            </intent-filter>
+196            <intent-filter>
+196-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+197                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+198            </intent-filter>
+199            <intent-filter>
+199-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+200                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+201            </intent-filter>
+202            <intent-filter>
+202-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+203                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+203-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+203-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\gradle\caches\8.14.2\transforms\42e0f9cd04fef670f556477c957f3ebf\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+204            </intent-filter>
+205        </receiver>
+206    </application>
+207
+208</manifest>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center"
+    android:background="@drawable/user_item_background"
+    android:layout_marginEnd="8dp">
+
+    <!-- User Avatar -->
+    <RelativeLayout
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp">
+
+        <!-- Avatar Circle -->
+        <View
+            android:id="@+id/view_user_avatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/user_avatar_bg" />
+
+        <!-- User Initials -->
+        <TextView
+            android:id="@+id/tv_user_initials"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="AB"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center" />
+
+        <!-- Online Status Indicator -->
+        <ImageView
+            android:id="@+id/iv_online_status"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_online"
+            android:background="@drawable/status_indicator_bg"
+            android:contentDescription="Online status"
+            android:padding="2dp" />
+
+    </RelativeLayout>
+
+    <!-- User Name -->
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:maxWidth="60dp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Host Badge -->
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_host"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOST"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:chipBackgroundColor="@color/primary_color"
+        app:chipStrokeWidth="0dp"
+        app:chipMinHeight="20dp"
+        android:layout_marginBottom="2dp" />
+
+    <!-- Join Time -->
+    <TextView
+        android:id="@+id/tv_join_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5m ago"
+        android:textSize="10sp"
+        android:textColor="@color/secondary_text"
+        android:maxLines="1"
+        android:maxWidth="60dp" />
+
+</LinearLayout> 

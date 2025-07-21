@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_people.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_people.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\layout_activity_join_session.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\activity_join_session.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_play_button_background.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\play_button_background.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_skip_previous.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_skip_previous.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\anim_rotate_spinner.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\anim\\rotate_spinner.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\layout_activity_main.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_step_number_bg.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\step_number_bg.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_remove_button_bg.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\remove_button_bg.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_position_number_bg.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\position_number_bg.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\layout_activity_create_session.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\activity_create_session.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_skip_next.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_skip_next.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\layout_item_track_search.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\item_track_search.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_count_badge_bg.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\count_badge_bg.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\layout_item_user.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_group.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_group.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_search.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\layout_item_track_queue.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\item_track_queue.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\layout_activity_music_player.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\activity_music_player.xml"
+    },
+    {
+        "merged": "com.groupmusicplayer.app-merged_res-5:/layout_activity_music_player.xml.flat",
+        "source": "com.groupmusicplayer.app-main-7:/layout/activity_music_player.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\animator_button_state_animator.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\animator\\button_state_animator.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_online.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_online.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_card_background.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\xml_backup_rules.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_drag_handle.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_drag_handle.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_user_item_background.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\user_item_background.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_offline.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_offline.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_music_note.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_music_note.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_remove.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_remove.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_preview.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_preview.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_status_indicator_bg.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\status_indicator_bg.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_bottom_sheet_background.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\bottom_sheet_background.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_launcher_round.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.groupmusicplayer.app-merged_res-5:/layout_activity_create_session.xml.flat",
+        "source": "com.groupmusicplayer.app-main-7:/layout/activity_create_session.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_room.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_room.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\anim_fade_in.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_pause.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_pause.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_user_avatar_bg.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\user_avatar_bg.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_add.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\anim_slide_up.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\anim_fade_out.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "com.groupmusicplayer.app-merged_res-5:/layout_activity_join_session.xml.flat",
+        "source": "com.groupmusicplayer.app-main-7:/layout/activity_join_session.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_spotify.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_spotify.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_loading_spinner.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\loading_spinner.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-merged_res-5:\\drawable_ic_play.xml.flat",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\drawable\\ic_play.xml"
+    }
+]

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_color">#00BCD4</color>
+    <color name="background_color">#F8F9FA</color>
+    <color name="black">#FF000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="error_color">#DC3545</color>
+    <color name="primary_color">#6C63FF</color>
+    <color name="primary_dark">#5A52E0</color>
+    <color name="primary_text">#1A1A1A</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#F44336</color>
+    <color name="secondary_color">#FF6B9D</color>
+    <color name="secondary_text">#6C757D</color>
+    <color name="spotify_dark">#1AA34A</color>
+    <color name="spotify_green">#1DB954</color>
+    <color name="success_color">#28A745</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="warning_color">#FFC107</color>
+    <color name="white">#FFFFFFFF</color>
+    <item name="haptic_feedback_added" type="id"/>
+    <item name="icon_tag" type="id"/>
+    <string name="add_to_queue">Add to Queue</string>
+    <string name="added_by">Added by %s</string>
+    <string name="app_name">Group Music Player</string>
+    <string name="app_tagline">Listen together, control together</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_connect_spotify">Connect to Spotify</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_create_session">Create Session</string>
+    <string name="btn_join">Join</string>
+    <string name="btn_join_session">Join Session</string>
+    <string name="btn_open_browser">Open Browser</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_rejoin">Rejoin</string>
+    <string name="btn_repeat">Repeat</string>
+    <string name="btn_shuffle">Shuffle</string>
+    <string name="btn_skip_next">Next</string>
+    <string name="btn_skip_previous">Previous</string>
+    <string name="btn_spotify_connected">✓ Spotify Connected</string>
+    <string name="btn_start_fresh">Start Fresh</string>
+    <string name="connected_users">Connected Users</string>
+    <string name="copy_room_code">Copy Room Code</string>
+    <string name="create_session_title">Create Session</string>
+    <string name="creating_session">Creating session...</string>
+    <string name="error">Error</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_permission_denied">Permission denied.</string>
+    <string name="error_session_not_found">Session not found or expired.</string>
+    <string name="error_spotify_not_connected">Spotify not connected. Please authenticate first.</string>
+    <string name="error_unknown">An unexpected error occurred.</string>
+    <string name="gcm_defaultSenderId" translatable="false">100682097227</string>
+    <string name="google_api_key" translatable="false">AIzaSyA5pUleQLaJeZv-zKsjjSOoTHEeSbU2vFc</string>
+    <string name="google_app_id" translatable="false">1:100682097227:android:75c4dff155e8d2b87823ce</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA5pUleQLaJeZv-zKsjjSOoTHEeSbU2vFc</string>
+    <string name="google_storage_bucket" translatable="false">groupmusic-b3f2e.firebasestorage.app</string>
+    <string name="host_label">(Host)</string>
+    <string name="import_playlist">Import Playlist</string>
+    <string name="join_session_title">Join Session</string>
+    <string name="join_the_party">Join the Party</string>
+    <string name="joining_session">Joining session...</string>
+    <string name="loading">Loading...</string>
+    <string name="main_description">Create a session to share your Spotify queue\nwith friends in real-time</string>
+    <string name="name_required">Please enter your name</string>
+    <string name="no_track_playing">No track playing</string>
+    <string name="no_tracks_in_queue">No tracks in queue</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="ok">OK</string>
+    <string name="project_id" translatable="false">groupmusic-b3f2e</string>
+    <string name="queue_title">Queue</string>
+    <string name="rejoin_session_message">You were previously in session: %s\n\nWould you like to rejoin?</string>
+    <string name="rejoin_session_title">Rejoin Session?</string>
+    <string name="remove_from_queue">Remove from Queue</string>
+    <string name="retry">Retry</string>
+    <string name="room_code_copied">Room code copied to clipboard</string>
+    <string name="room_code_hint">Enter 6-digit room code</string>
+    <string name="room_code_invalid">Please enter a valid 6-digit room code</string>
+    <string name="search_songs">Search songs...</string>
+    <string name="session_created_message">Room Code: %s\n\nShare this code with your friends so they can join your session.</string>
+    <string name="session_created_title">Session Created!</string>
+    <string name="session_creation_failed">Failed to create session: %s</string>
+    <string name="session_join_failed">Failed to join session: %s</string>
+    <string name="session_name_hint">Enter session name</string>
+    <string name="share">Share</string>
+    <string name="spotify_auth_failed_message">Failed to connect to Spotify: %s</string>
+    <string name="spotify_auth_failed_title">Authentication Failed</string>
+    <string name="spotify_auth_message">To create sessions and control music, you need to authenticate with Spotify.\n\nThis will open your browser to log in to Spotify.</string>
+    <string name="spotify_auth_success_message">Successfully connected to Spotify!</string>
+    <string name="spotify_auth_success_title">Success!</string>
+    <string name="spotify_auth_title">Spotify Authentication Required</string>
+    <string name="spotify_connection_title">Spotify Connection</string>
+    <string name="spotify_status_connected">Ready to create sessions</string>
+    <string name="spotify_status_disconnected">Connect to Spotify to create sessions</string>
+    <string name="user_offline">Offline</string>
+    <string name="user_online">Online</string>
+    <string name="your_name_hint">Enter your name</string>
+    <style name="Base.Theme.GroupMusicPlayer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+
+    </style>
+    <style name="ControlButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="PlayPauseButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:background">@drawable/play_button_background</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+    <style name="Theme.GroupMusicPlayer" parent="Base.Theme.GroupMusicPlayer"/>
+    <style name="TrackArtist" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+    <style name="TrackTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+</resources>

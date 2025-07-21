@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-mergeDebugResources-4:\\layout\\activity_music_player.xml",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\activity_music_player.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-mergeDebugResources-4:\\layout\\item_track_queue.xml",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\item_track_queue.xml"
+    },
+    {
+        "merged": "com.groupmusicplayer.app-mergeDebugResources-4:/layout/activity_music_player.xml",
+        "source": "com.groupmusicplayer.app-main-7:/layout/activity_music_player.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-mergeDebugResources-4:\\layout\\activity_create_session.xml",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\activity_create_session.xml"
+    },
+    {
+        "merged": "com.groupmusicplayer.app-mergeDebugResources-4:/layout/activity_join_session.xml",
+        "source": "com.groupmusicplayer.app-main-7:/layout/activity_join_session.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-mergeDebugResources-4:\\layout\\activity_join_session.xml",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\activity_join_session.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-mergeDebugResources-4:\\layout\\activity_main.xml",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-mergeDebugResources-4:\\layout\\item_track_search.xml",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\item_track_search.xml"
+    },
+    {
+        "merged": "com.groupmusicplayer.app-mergeDebugResources-4:/layout/activity_create_session.xml",
+        "source": "com.groupmusicplayer.app-main-7:/layout/activity_create_session.xml"
+    },
+    {
+        "merged": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-mergeDebugResources-4:\\layout\\item_user.xml",
+        "source": "C:\\gradle\\daemon\\8.14.2\\com.groupmusicplayer.app-main-7:\\layout\\item_user.xml"
+    }
+]

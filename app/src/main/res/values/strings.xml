@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Group Music Player</string>
+    
+    <!-- Main Activity -->
+    <string name="app_tagline">Listen together, control together</string>
+    <string name="spotify_connection_title">Spotify Connection</string>
+    <string name="spotify_status_disconnected">Connect to Spotify to create sessions</string>
+    <string name="spotify_status_connected">Ready to create sessions</string>
+    <string name="btn_connect_spotify">Connect to Spotify</string>
+    <string name="btn_spotify_connected">✓ Spotify Connected</string>
+    <string name="btn_create_session">Create Session</string>
+    <string name="btn_join_session">Join Session</string>
+    <string name="join_the_party">Join the Party</string>
+    <string name="main_description">Create a session to share your Spotify queue\nwith friends in real-time</string>
+    
+    <!-- Spotify Authentication -->
+    <string name="spotify_auth_title">Spotify Authentication Required</string>
+    <string name="spotify_auth_message">To create sessions and control music, you need to authenticate with Spotify.\n\nThis will open your browser to log in to Spotify.</string>
+    <string name="btn_open_browser">Open Browser</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="spotify_auth_success_title">Success!</string>
+    <string name="spotify_auth_success_message">Successfully connected to Spotify!</string>
+    <string name="spotify_auth_failed_title">Authentication Failed</string>
+    <string name="spotify_auth_failed_message">Failed to connect to Spotify: %s</string>
+    
+    <!-- Session Management -->
+    <string name="rejoin_session_title">Rejoin Session?</string>
+    <string name="rejoin_session_message">You were previously in session: %s\n\nWould you like to rejoin?</string>
+    <string name="btn_rejoin">Rejoin</string>
+    <string name="btn_start_fresh">Start Fresh</string>
+    
+    <!-- Create Session -->
+    <string name="create_session_title">Create Session</string>
+    <string name="session_name_hint">Enter session name</string>
+    <string name="btn_create">Create</string>
+    <string name="creating_session">Creating session...</string>
+    <string name="session_created_title">Session Created!</string>
+    <string name="session_created_message">Room Code: %s\n\nShare this code with your friends so they can join your session.</string>
+    <string name="session_creation_failed">Failed to create session: %s</string>
+    
+    <!-- Join Session -->
+    <string name="join_session_title">Join Session</string>
+    <string name="room_code_hint">Enter 6-digit room code</string>
+    <string name="your_name_hint">Enter your name</string>
+    <string name="btn_join">Join</string>
+    <string name="joining_session">Joining session...</string>
+    <string name="session_join_failed">Failed to join session: %s</string>
+    <string name="room_code_invalid">Please enter a valid 6-digit room code</string>
+    <string name="name_required">Please enter your name</string>
+    
+    <!-- Music Player -->
+    <string name="now_playing">Now Playing</string>
+    <string name="queue_title">Queue</string>
+    <string name="search_songs">Search songs...</string>
+    <string name="add_to_queue">Add to Queue</string>
+    <string name="remove_from_queue">Remove from Queue</string>
+    <string name="import_playlist">Import Playlist</string>
+    <string name="no_tracks_in_queue">No tracks in queue</string>
+    <string name="no_track_playing">No track playing</string>
+    <string name="added_by">Added by %s</string>
+    
+    <!-- Playback Controls -->
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_skip_previous">Previous</string>
+    <string name="btn_skip_next">Next</string>
+    <string name="btn_shuffle">Shuffle</string>
+    <string name="btn_repeat">Repeat</string>
+    
+    <!-- Users -->
+    <string name="connected_users">Connected Users</string>
+    <string name="host_label">(Host)</string>
+    <string name="user_online">Online</string>
+    <string name="user_offline">Offline</string>
+    
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="loading">Loading...</string>
+    <string name="retry">Retry</string>
+    <string name="share">Share</string>
+    <string name="copy_room_code">Copy Room Code</string>
+    <string name="room_code_copied">Room code copied to clipboard</string>
+    
+    <!-- Errors -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_spotify_not_connected">Spotify not connected. Please authenticate first.</string>
+    <string name="error_session_not_found">Session not found or expired.</string>
+    <string name="error_permission_denied">Permission denied.</string>
+    <string name="error_unknown">An unexpected error occurred.</string>
+</resources> 
